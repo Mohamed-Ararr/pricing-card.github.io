@@ -1,0 +1,138 @@
+@media (max-width: 767px) {
+    .price-about {
+        flex-direction: column;
+    }
+    .price-about div {
+        width: 100% !important;
+    }
+    .price-about .pricing {
+        border-radius: 0 !important;
+    }
+    .price-about .about-us {
+        border-radius: 0 0 10px 10px !important;
+    }
+    .holder {
+        display: block !important;
+        /* margin-top: 15px; */
+    }
+    .price-box {
+        display: block !important;
+        margin: auto;
+        width: 350px;
+    }
+}
+
+* {
+    box-sizing: border-box;
+    text-transform: capitalize;
+    font-family: 'Karla', sans-serif;
+}
+
+body {
+    background-color: hsl(204, 43%, 93%);
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.holder {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.price-box {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.join {
+    padding: 20px;
+}
+
+.join h2 {
+    color: hsl(179, 62%, 43%);
+}
+
+.join span {
+    display: block;
+    color: hsl(71, 73%, 54%);
+    font-weight: bold;
+}
+
+.join p {
+    color: hsl(218, 22%, 67%);
+    line-height: 1.5;
+}
+
+.price-about {
+    display: flex;
+    align-items: center;
+    height: 250px;
+}
+
+.price-about div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    height: 100%;
+    width: 50%;
+    color: white;
+}
+
+.price-about div h2 {
+    margin: 10px 0 15px;
+    font-size: 1.3em;
+}
+
+.price-about .pricing {
+    border-radius: 0 0 0 10px;
+    background-color: hsl(179, 62%, 43%);
+}
+
+.price-about .pricing span {
+    color:hsl(204, 76%, 87%)
+}
+
+.price-about .pricing strong {
+    font-size: 2em;
+    color: white;
+}
+
+.price-about .pricing p {
+font-size: 0.85em;
+}
+
+.price-about .pricing a {
+    text-decoration: none;
+    background-color: hsl(71, 73%, 54%);
+    padding: 15px;
+    border-radius: 10px;
+    color: white;
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+.price-about .about-us {
+    background-color: rgb(20, 211, 207);
+    border-radius: 0 0 10px;
+}
+
+.price-about .about-us ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.price-about .about-us ul li {
+    color:hsl(204, 76%, 87%);
+    font-size: 0.93em;
+}
